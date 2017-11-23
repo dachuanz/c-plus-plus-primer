@@ -1,6 +1,9 @@
 ﻿# include <stdio.h>
 # include <string.h>
+/**
+函数指针示例
 
+*/
 void check(char* a, char* b, int(*cmp)(const char*, const char*));
 
 int main( void)
