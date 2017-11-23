@@ -1,6 +1,9 @@
 ﻿# include <stdio.h>
 # include <string.h>
+/**
 
+指向结构体的指针
+*/
 int main(void)
 {
     struct student
