@@ -1,5 +1,7 @@
 #include <stdio.h>
-
+/**
+函数原型
+*/
 void dprint(double);
 
 int main(void)
