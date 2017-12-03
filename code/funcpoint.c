@@ -13,7 +13,9 @@ int main( void)
     p = strcmp;   
     printf("输入两个字符串:\n");
     gets(s1);    
-    gets(s2);   
+    gets(s2);  
+ check (s1,s2,p);
+return 0; 
 }
 
 void check(char* a, char* b, int(*cmp)(const char*, const char*))
