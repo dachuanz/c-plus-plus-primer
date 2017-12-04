@@ -3,7 +3,7 @@
 #include <iostream>
 
 using namespace std;
-
+// 使用stl 
 void action1(int& e)
 {
     e *= 2;
