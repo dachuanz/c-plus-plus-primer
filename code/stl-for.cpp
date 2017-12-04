@@ -4,12 +4,12 @@
 
 using namespace std;
 
-int action1(int& e)
+void action1(int& e)
 {
     e *= 2;
 }
 
-int action2(int& e)
+void action2(int& e)
 {
     cout << e << '\t';
 }
@@ -18,6 +18,6 @@ int action2(int& e)
 int main()
 {
     int arr[5] = {1, 2, 3, 4, 5};
-    for_each(arr, arr + sizeof(arr) / sizeof(arr[0]), action1);//使用stl 中的for_each方法
+    for_each(arr, arr + sizeof(arr) / sizeof(arr[0]), action1);
     for_each(arr, arr + sizeof(arr) / sizeof(arr[0]), action2);
 }
