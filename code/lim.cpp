@@ -1,6 +1,6 @@
 #include <climits>
 #include <cstdio>
-//g++  -std=c++03 -pedantic lim.cpp 无法通过便宜，c++1998 不支持 long long 类型
+//g++  -std=c++03 -pedantic lim.cpp 无法通过编译，c++1998 不支持 long long 类型
 
 
 using namespace std;
